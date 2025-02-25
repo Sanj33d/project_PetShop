@@ -44,6 +44,9 @@
         .banner-description-color{
           color: #111111;
         }
+        .description-color{
+          color: rgba(17, 17, 17, 0.70);
+        }
         .category-card-bg{
           background-color: #F9DF8A;
         }
@@ -68,7 +71,7 @@
 </head>
 <body class="my-font">
     <header class="">
-        <nav class="nav-bg-color lg:px-14">
+        <nav class="nav-bg-color lg:px-[156px]">
             <div class="navbar flex justify-between">
                 <div class="navbar-start">
                   <img src="images/logo-header.png" alt="" class="lg:mr-3">
@@ -113,7 +116,7 @@
               </div>
         </nav>
 
-        <div class="banner lg:px-14 mt-8 md:mt-24 mx-4">
+        <div class="banner lg:px-[156px] mt-8 md:mt-24 mx-4">
           <div class="banner-img-bg relative top-44 md:top-0">
             <img class="w-full" src="images/cat-big.png" alt="">
           </div>
@@ -436,29 +439,41 @@
 
     </main>
 
-    <footer class="footer-bg px-4 pt-[365px]">
-      <div class="flex items-center gap-3">
-        <img src="images/logo-footer.png" alt="">
-        <p class="text-xl">Browse4Pets</p>
+    <footer class="lg:flex lg:justify-between footer-bg px-4 lg:px-[156px] pt-[365px] pb-[56px]">
+      <!-- div1 -->
+      <div class="">
+        <div class="flex items-center gap-3">
+          <img class="w-9 lg:w-11" src="images/logo-footer.png" alt="">
+          <p class="text-xl lg:text-3xl">Browse<span class="amar_text_color">4</span>Pets</p>
+        </div>
+        <p class="text-base lg:text-xl mt-4 description-color">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
       </div>
-
-      <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
-
-      <div class="my-4">
+      <!-- div2 -->
+      <div class="my-4 text-base">
         <p>Find a pet</p>
         <p>Breeds</p>
         <p>Contact us</p>
       </div>
-
-      <p>Follow Us</p>
-      <div class="flex items-center gap-8 text-2xl">
-        <i class="fb fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <span class="rounded-lg">
-          <i class="fa-brands fa-linkedin"></i>
-        </span>
-        <i class="fa-brands fa-youtube"></i>
-      </div>
+      <!-- div3 -->
+       <div class="">
+        <p class="text-sm mb-2">Follow Us</p>
+        <div class="flex items-center gap-8 text-2xl">
+          <a href="">
+            <i class="fb fa-brands fa-facebook"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="">
+            <span class="rounded-lg">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+       </div>
     </footer>
 </body>
 </html>
