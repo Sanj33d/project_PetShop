@@ -128,8 +128,8 @@
         </div>
     </header>
 
-    <main class=" relative bottom-16 md:bottom-48">
-      <section class="px-4 lg:px-14">
+    <main class="relative bottom-16 md:bottom-48">
+      <section class="px-4 lg:px-[156px]">
         <h4 class="category-title text-2xl font-normal md:mb-8 md:text-4xl my-font-2">Browse By Categories</h4>
 
         <div class="category-card-container grid grid-cols-2 gap-3 lg:flex">
@@ -232,7 +232,7 @@
         </div>
       </section>
 
-      <section class="nav-bg-color px-4 lg:px-14 lg:my-32 mt-8 lg:py-28">
+      <section class="nav-bg-color px-4 lg:px-[156px] lg:my-32 mt-8 lg:py-28">
         <h4 class="my-font-2 category-title text-2xl font-normal md:mb-8 md:text-4xl">Browse By Categories</h4>
         
         <div class="lg:flex lg:gap-8 mt-8">
@@ -406,12 +406,12 @@
         </div>
       </section>
 
-        <section class="mt-8 px-4">
+        <section class="mt-8 px-4 lg:px-[156px]">
           <!-- title -->
-          <h4 class="my-font-2 category-title text-2xl font-normal md:mb-8 md:text-4xl lg:px-14">Everyday low Price</h4>
+          <h4 class="my-font-2 category-title text-2xl font-normal md:mb-8 md:text-4xl">Everyday low Price</h4>
 
           <!-- cards -->
-           <div class="amar-container mt-8 lg:flex lg:justify-between lg:gap-8 lg:px-14">
+           <div class="amar-container mt-8 lg:flex lg:justify-between lg:gap-8">
             <!-- card1 -->
             <div class="lg:w-3/5 bg-gradient-to-br from-[rgb(247,204,251)] to-[rgb(175,210,253)] rounded-lg lg:rounded-xl pt-8 pl-8">
               <div class="flex justify-end">
@@ -439,8 +439,9 @@
 
     </main>
 
-    <footer class="lg:flex lg:justify-between footer-bg px-4 lg:px-[156px] pt-[365px] pb-[56px]">
-      <!-- div1 -->
+    <footer class=" footer-bg px-4 lg:px-[156px] pt-[365px] pb-[56px] mt-[326px]">
+      <section class="lg:flex lg:gap-[500px]">
+        <!-- div1 -->
       <div class="">
         <div class="flex items-center gap-3">
           <img class="w-9 lg:w-11" src="images/logo-footer.png" alt="">
@@ -449,13 +450,13 @@
         <p class="text-base lg:text-xl mt-4 description-color">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
       </div>
       <!-- div2 -->
-      <div class="my-4 text-base">
+      <div class="lg:flex-column lg:gap-8 my-4 text-base lg:text-xl">
         <p>Find a pet</p>
         <p>Breeds</p>
         <p>Contact us</p>
       </div>
       <!-- div3 -->
-       <div class="">
+       <div class="lg:flex-column lg:justify-end">
         <p class="text-sm mb-2">Follow Us</p>
         <div class="flex items-center gap-8 text-2xl">
           <a href="">
@@ -474,6 +475,26 @@
           </a>
         </div>
        </div>
+      </section>
+      
+      <!-- footer relative section -->
+       <section>
+        <div class="card bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="images/cute-pet-mid.png"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+       </section>
     </footer>
 </body>
 </html>
